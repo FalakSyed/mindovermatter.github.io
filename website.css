@@ -1,0 +1,271 @@
+
+*{
+margin:0px;
+padding: 0px;
+overflow-x: hidden;
+scroll-behavior: smooth;
+
+}
+
+/* Style the header*/
+
+#Branding{
+padding: 30px;
+text-align: center;
+background-color: #824E4E;
+color: white;
+min-width:100%;
+}
+
+@media only screen and (min-width:300px) and (max-width:767px) {
+  /* For mobile phones: */
+  #Branding img {
+    max-width: 45%;
+    margin-right: 20px;
+
+  }
+
+  #img1, #img2, #img3{
+    min-width:100%;
+  }
+
+  .contact textarea{
+    padding-left:10%;
+    max-width:70%;
+    margin-left: 20px;
+  }
+
+  .topnav a {
+    float: none;
+    width: 100%;
+
+}
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+  /* For tablets: */
+  #Branding img {
+    width: 70%;
+  }
+  .imgcontent{
+  width: 32.31%;
+  }
+  #img1, #img2, #img3{
+    max-width:32%;
+  }
+
+}
+
+
+
+.top {
+  overflow: hidden;
+  background-color: #808080;
+
+}
+
+.top a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+
+}
+
+.top a:hover, .dropdown:hover .dropbtn {
+  color:#BC8F8F;
+  background-color: #D3D3D3;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.img2 img{
+  position: absolute;
+  max-height: 350px;
+  max-width: 550px;
+}
+
+video{
+  width:100%;
+  height:400px;
+  background-color: black;
+}
+
+.q{
+  background-color: black;
+  padding-top:5%;
+  padding-bottom:5%;
+  height: 120px;
+  min-width:100%;
+}
+
+.q1{
+margin-top: 15px;
+color:white;
+font-family: FreeMono, monospace;
+text-align: center;
+font-size: 25px;
+text-transform: uppercase;
+min-width:100%;
+}
+
+
+
+.imgcontent{
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  padding: 20px;
+  height: 275px;
+
+
+  float: left;
+  max-width: 32.542%;
+   padding: 5px;
+}
+
+
+#img1{
+  background-image: url("59(2).jpg");
+}
+
+#img2{
+  background-image: url("52.jpg");
+}
+
+#img3{
+  background-image: url("53.jpg");
+}
+#img1, #img2, #img3{
+  width:500px;
+}
+
+
+.textcontent a{
+  background-color: black;
+  opacity: 0.7;
+  padding: 18px;
+  color:white;
+float: left;
+
+  margin-top: 135px;
+  text-decoration: none;
+
+}
+
+
+
+.find::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contact{
+  background-color: black;
+  padding:50px;
+  color:white;
+  text-align: center;
+}
+
+
+
+.contact input{
+  padding:15px;
+  color:grey;
+  margin:10px;
+  border-radius: 6px;
+
+}
+.contact input[type=submit]{
+  background-color: #824E4E ;
+ color: white;
+ padding: 12px 20px 10px 10px;
+ border: none;
+ border-radius: 7px;
+ cursor: pointer;
+
+
+}
+
+.contact textarea{
+  padding:10px;
+  width:300px;
+  height:75px;
+  margin-left:25px;
+  border-radius: 8px;
+  margin-top: 25px;
+
+}
+
+.contact #cnt{
+  padding:10px;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+
+
+#siteinfo{
+  background-color: #824E4E;
+
+
+  padding: 10px;
+  min-width: 100%;
+}
+
+#siteinfo p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#siteinfo address{
+  float: right;
+}
+
+#siteinfo a{
+  color: black;
+
+}

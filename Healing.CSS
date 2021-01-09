@@ -1,0 +1,179 @@
+
+body{
+  background-color:black;
+
+
+}
+.bg{
+   position: relative;
+   text-align: center;
+   color: white;
+   font-size: 35px;
+
+ }
+ .center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg img{
+  width: 100%;
+
+}
+
+
+
+
+#challenge h1{
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 50px;
+  background-color: #D3D3D3;
+  color: black;
+  padding: 10px 12px;
+white-space: normal;
+
+}
+
+#challenge p{
+  font-size: 20px;
+  color: white;
+text-align:justify;
+position:relative;
+padding: 10px;
+}
+
+
+span{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.box, .box3{
+min-width: auto;
+height: auto;
+border: 3px solid pink;
+box-sizing:border-box;
+padding: 10px;
+margin-top: 5px;
+margin-bottom: 20px;
+background-color: #FFE4E1;
+float: left;
+margin-left: 40px;
+margin-right: 2px;
+box-shadow: 5px 5px 2px; /**[horizontal] [vertical] [blur]**/
+
+
+
+}
+
+ h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  margin: 5px;
+margin-bottom: 15px;
+}
+
+table, th, td {
+border: solid white;
+ border-collapse: collapse;
+ background-color: #D3D3D3;
+ color: black;
+ padding: 8px;
+ border-radius: 25px;
+
+
+}
+th, td {
+  padding-right: 30px;
+
+}
+
+input{
+margin-left: 35%;
+margin-right: 15%;
+}
+
+select, input{
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+  background-color: #FFE4E1;
+  border-width: thin;
+}
+
+p{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.box3 li{
+  margin-left:20px;
+}
+
+
+/* For mobile phones */
+@media only screen and (min-width: 300px) and (max-width:549px){
+  .bg{
+    font-size: 27px;
+  }
+
+  .box {
+    margin-right: 5px;
+    margin-left:2px;
+    max-width:100%;
+  }
+  .box3 {
+  margin-right: 5px;
+   margin-left:2px;
+   max-width:100%;
+  }
+
+  table, th, td {
+
+ max-width:100%;
+   padding: 6px;
+   border-radius: 15px;
+   font-size:15px;
+  }
+  input{
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+
+}
+
+/* for tablets */
+@media only screen and (min-width:550px) and (max-width:900px){
+
+  .box  {
+    margin-right: 100px;
+    margin-left:120px;
+    max-width:100%;
+  }
+ .box3{
+   margin-right:20px;
+   max-width:100%;;
+ }
+
+
+}
+/*large tablets nad deskstop*/
+@media only screen and (min-width:901px) and (max-width:1280px){
+  .box{
+    margin-left: 260px;
+    margin-right: 220px;
+    max-width:50%;
+
+  }
+  .box3{
+    margin-right:40px;
+    margin-left: 75px;
+   max-width:87%;
+  }
+
+}

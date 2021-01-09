@@ -1,0 +1,125 @@
+
+body {
+margin: 0px;
+background-color:black;
+}
+
+#bg {
+   position: relative;
+   text-align: center;
+   color: white;
+   font-size: 25px;
+ }
+ .center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#bg img{
+  width: 100%;
+
+}
+
+ .transition {
+   width: 180px;
+   padding: 35px;
+   margin: 20px;
+   height: 30px;
+   text-align: center;
+   font-family: 'Times New Roman', serif;
+   transition: width 2s, height 4s;
+   font-weight: bold;
+   overflow:hidden;
+   display: inline-block;
+
+ }
+
+ .transition p{
+   padding-bottom: 43px;
+ }
+
+ .ans{
+   text-align: justify;
+ }
+
+ #p1{background-color: #20B2AA;}
+ #p2{background-color: #B0C4DE;}
+#p3{background-color: #FFA07A;}
+#p4{background-color: #BC8F8F;}
+#p5{background-color: #DDA0DD;}
+#p6{background-color: #4682B4;}
+#p7{background-color: #FFDEAD;}
+#p8{background-color: #FFB6C1;}
+
+
+
+ .transition:hover {
+   width: 180px;
+   height: 210px;
+ }
+
+ @media only screen and (min-width:350px) {
+   /* For mobile phones: */
+   #bg {
+      font-size: 20px;
+    }
+    .transition{
+    margin-left: 60px;
+  }
+
+}
+
+@media only screen and (min-width:700px){
+  /** for tablet **/
+  #bg{
+    font-size:35px;
+  }
+  .transition {
+
+  margin-left: 135px;
+
+  }
+}
+
+@media only screen and (min-width:1000px) {
+    /* For deskstop phones: */
+    #bg {
+       font-size: 50px;
+     }
+    .transition{
+
+      margin: 25px;
+
+  }
+
+}
+ #Mission h1{
+   text-align: center;
+   font-family: 'Brush Script MT', cursive;
+   font-size: 50px;
+   background-color: #D3D3D3;
+   color: black;
+   padding: 10px 12px;
+
+
+ }
+#Mission h4{
+  font-size: 20px;
+  text-align: justify;
+  padding: 23px;
+  color:white;
+}
+#Mission ul{
+  font-size: 20px;
+  border-color: black;
+  text-align: justify;
+  padding: 23px;
+  color:white;
+}
+
+#Mission span{
+  font-style: italic;
+  color: #20B2AA;;
+}

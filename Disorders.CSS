@@ -1,0 +1,236 @@
+*{
+
+}
+body{
+margin:auto;
+background-color: black;
+height:auto;
+}
+
+.row::after {
+  content: "";
+  clear:both;
+  display:table;
+
+}
+
+
+[class*="col-"] {
+ float: left;
+ padding: 15px;
+}
+
+
+.content{
+  padding: 30px;
+  background-color:  #edc9a6;
+
+}
+
+span{
+  font-weight: bold;
+ font-style: italic;
+}
+
+
+
+#discover{
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width:768px) {
+/* For tablets and mobile view: style disorder navigation */
+[class*="col-"] {
+width: 95%;}
+
+}
+@media only screen and (max-width: 600px) {
+  .sticky{
+    font-size: 10px;
+  }
+
+
+}
+
+.bg {
+   position: relative;
+   text-align: center;
+   color: white;
+   font-size: 35px;
+
+
+
+ }
+ .center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg img{
+  width: 100%;
+ height: auto;
+}
+
+ .disorders ul {
+  list-style-type:none;
+  padding: 10px;
+  margin-top: 20px;
+
+
+
+}
+
+.disorders li {
+
+  padding:10px;
+  margin-bottom: 7px;
+  background-color: #BC8F8F;
+  color: #ffffff;
+
+
+}
+
+  /* Change color on hover */
+  .disorders li:hover {
+  background-color: #FFC0CB;
+  }
+
+  .disorders a {
+    text-decoration: none;
+    color: white;
+  }
+  .content p{
+    text-align: justify;
+  }
+
+  .pic1{
+
+    float:right;
+    background-image:url("17.jpeg");
+    height:180px;
+    margin-right:15px;
+    margin-top:150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+  }
+
+.pic2{
+
+  float:right;
+  background-image:url("38(3).jpg");
+  height:180px;
+  margin-right:15px;
+  margin-top:200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+
+.pic3{
+
+  float:right;
+  background-image:url("26(2).jpeg");
+  height:180px;
+  margin-right:15px;
+  margin-top:270px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.pic4{
+
+  float:right;
+  background-image:url("7.jpg");
+  height:180px;
+  margin-right:15px;
+  margin-top:200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.pic5{
+
+  float:right;
+  background-image:url("9.jpg");
+  height:180px;
+  margin-right:15px;
+  margin-top:220px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.pic6{
+
+  float:right;
+  background-image:url("5(2).jpg");
+  height:180px;
+  margin-right:15px;
+  margin-top:270px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.pic7{
+
+  float:right;
+  background-image:url("28(2).jpeg");
+  height:180px;
+  margin-right:15px;
+  margin-top:220px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.pich{
+  text-align: center;
+  margin-top:32px;
+  color:black;
+  text-shadow: 2px 2px 5px white;
+    text-transform:uppercase;
+    font-size:27px;
+}
+
+
+  .stick {
+    position: -webkit-sticky;
+    bottom: 0;
+    position: sticky;
+    background-color: grey;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    width:100%;
+  }

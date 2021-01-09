@@ -1,0 +1,141 @@
+
+body{
+width:100%;
+background-color:black;
+}
+
+.bg {
+   position: relative;
+   text-align: center;
+   color: white;
+   font-size: 45px;
+
+
+ }
+ .center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg img{
+  width: 100%;
+
+}
+
+
+.column1of2 #form{
+float: right;
+background-color:black;;
+border-radius: 10px;
+padding-left: 10px;
+padding-right: 10px;
+border-color: grey;
+opacity:1;
+display: inline;
+width:30%;
+
+
+}
+
+textarea{
+  width: 250px;
+  height: 60px;
+  overflow:scroll;
+}
+
+label{
+  color:white;
+}
+
+legend {
+
+  color: white;
+  padding: 10px 10px;
+  border-color: black;
+  border-radius: 10px;
+  text-align: center;
+
+
+
+}
+
+input{
+  margin: 10px;
+  padding:4px;
+
+}
+
+.column1of2 {
+  /* The image used */
+  background-image: url("8.jpg");
+ padding: 10px;
+  height: 400px;
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+
+}
+
+.column1of2 #para {
+
+  opacity:1;
+ width:30%;
+ float:left;
+font-family: "Courier New", monospace;
+  color: white;
+  font-size: 38px;
+  letter-spacing: 1px;
+  text-transform:uppercase;
+  display:inline;
+  text-align: center;
+  padding: 8% 15% 15% 23%;
+
+
+}
+@media only screen and (min-width:766px) and (max-width:1039px){ /** for tablets **/
+  .column1of2 #para {
+    padding-left: 10%;
+  font-size: 35px;}
+
+  .column1of2 #form{
+    width:40%;
+min-height:80%;}
+
+  .column1of2{
+  height:420px;}
+}
+
+@media only screen and (min-width:300px) and (max-width:766px){
+/** for mobile **/
+  .bg{
+    font-size: 30px;
+  }
+
+  .column1of2 #para{
+   width:40%;
+   float: none;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 23%;
+    padding-right: 8%;
+    padding-top: 0px;
+    padding-bottom: 15%;
+
+  }
+  .column1of2 #form{
+    display:inline-table;
+    width: 95%;
+
+     }
+
+     .column1of2{
+       height:100px;
+
+     }
+
+}
